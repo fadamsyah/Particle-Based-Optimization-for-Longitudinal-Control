@@ -1,4 +1,16 @@
-# Particle-Based Optimization Algorithms for Longitudinal Control of Autonomous Vehicle: A Comparative Study
+<h1> Particle-Based Optimization Algorithms for Longitudinal Control of Autonomous Vehicle: A Comparative Study </h1>
+
+## Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Introduction](#introduction)
+  - [Abstract](#abstract)
+  - [Contributions](#contributions)
+- [How to Use](#how-to-use)
+  - [Requirements](#requirements)
+  - [Installation](#installation)
+- [Files](#files)
+- [Results](#results)
+- [Technical References](#technical-references)
 
 
 ## Introduction
@@ -42,9 +54,9 @@ We use [Numba](http://numba.pydata.org/) to speed up our code. We found that by 
 
 ### Installation
 
-We suggest to use a [conda](https://docs.conda.io/en/latest/) environment to make your installation easier. Installing libraries in `conda` is relatively easy because it will also install their dependencies.
+We suggest to use a [conda](https://docs.conda.io/en/latest/) environment to make your installation easier. Installing libraries in `conda` is relatively easy because it will also automatically install their dependencies.
 
-After installing `conda`, we recommend installing the required libraries as follows;
+After installing `conda`, we recommend do as follows;
 ```
 # Create an environment inside conda
 conda create -n py39 python=3.9
@@ -70,7 +82,7 @@ conda install -c conda-forge jupyterlab matplotlib pandas -y
 
 `----------------------------------------------`
 
-## Technical Reference(s)
+## Technical References
 - [Introduction to Self Driving Cars](https://www.coursera.org/learn/intro-self-driving-cars?specialization=self-driving-cars)
 - [Make Python code 1000x Faster with Numba
 ](https://www.youtube.com/watch?v=x58W9A2lnQc&ab_channel=JackofSome)
