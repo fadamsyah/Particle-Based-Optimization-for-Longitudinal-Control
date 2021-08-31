@@ -8,7 +8,7 @@
 - [How to Use](#how-to-use)
   - [Requirements](#requirements)
   - [Installation](#installation)
-- [Files](#files)
+- [Simulation Files](#simulation-files)
 - [Results](#results)
 - [Technical References](#technical-references)
 
@@ -74,9 +74,15 @@ conda install -c conda-forge jupyterlab matplotlib pandas -y
 - `conda install -c intel numpy` is recommended if you have an intel CPU installed on your computer, because it will use the Intel Math Kernel Library ([MKL](https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onemkl.html)) as its backend. Otherwise, you'd better avoid MKL by using the `conda-forge` channel.
 - Now, we cannot install `SciencePlots` through conda directly. Instead, we need to look at the original [repository](https://github.com/garrettj403/SciencePlots).
 
-## Files
+## Simulation Files
 
-`----------------------------------------------`
+1. **Steady-State Response** ([PSO](https://github.com/fadamsyah/Particle-Based-Optimization-for-Longitudinal-Control/tree/main/S1_Steady_State_Response/A1_PSO), [APSO](https://github.com/fadamsyah/Particle-Based-Optimization-for-Longitudinal-Control/tree/main/S1_Steady_State_Response/A2_APSO), [FPA](https://github.com/fadamsyah/Particle-Based-Optimization-for-Longitudinal-Control/tree/main/S1_Steady_State_Response/A3_FPA), [MFPA](https://github.com/fadamsyah/Particle-Based-Optimization-for-Longitudinal-Control/tree/main/S1_Steady_State_Response/A4_MFPA))
+
+2. **System Identification** ([PSO](https://github.com/fadamsyah/Particle-Based-Optimization-for-Longitudinal-Control/tree/main/S2_System_Identification/A1_PSO), [APSO](https://github.com/fadamsyah/Particle-Based-Optimization-for-Longitudinal-Control/tree/main/S2_System_Identification/A2_APSO), [FPA](https://github.com/fadamsyah/Particle-Based-Optimization-for-Longitudinal-Control/tree/main/S2_System_Identification/A3_FPA), [MFPA](https://github.com/fadamsyah/Particle-Based-Optimization-for-Longitudinal-Control/tree/main/S2_System_Identification/A4_MFPA))
+
+3. **PID Tuning** ([PSO](https://github.com/fadamsyah/Particle-Based-Optimization-for-Longitudinal-Control/tree/main/S3_PID_Tuning/A1_PSO), [APSO](https://github.com/fadamsyah/Particle-Based-Optimization-for-Longitudinal-Control/tree/main/S3_PID_Tuning/A2_APSO), [FPA](https://github.com/fadamsyah/Particle-Based-Optimization-for-Longitudinal-Control/tree/main/S3_PID_Tuning/A3_FPA), [MFPA](https://github.com/fadamsyah/Particle-Based-Optimization-for-Longitudinal-Control/tree/main/S3_PID_Tuning/A4_MFPA))
+
+4. **Cost Function Modifications** ([MFPA](https://github.com/fadamsyah/Particle-Based-Optimization-for-Longitudinal-Control/tree/main/S4_COST_FUNCTION_MODIFICATIONS))
 
 ## Results
 
