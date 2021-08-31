@@ -16,7 +16,22 @@
 ## Introduction
 
 ### Abstract
-`---------------------`
+
+> In order to improve the stability and performance of an autonomous vehicle,
+optimizations need to be explicitly performed in the controllers, which has an essential part in the
+tracking system. This work proposes a novel longitudinal control optimization scheme and a novel
+longitudinal controller consisting of a feed-forward and feedback term. The feed-forward term is
+inspired by the vehicle's steady-state response, whereas the feedback term is a proportional-
+integral-derivative (PID) controller. Also, A model representing the longitudinal vehicle dynamics is
+designed based on physical phenomena affecting the vehicle. Besides, some nature-inspired
+optimization algorithms are used to optimize the controller, i.e., Particle Swarm Optimization (PSO),
+Accelerated PSO (APSO), Flower Pollination Algorithm (FPA), and Modified FPA (MFPA). The
+algorithms are compared in optimizing the longitudinal vehicle model and controller using the
+CARLA simulator, and stability tests are also done for each algorithm. In addition, the
+characteristics of several cost functions in the controller optimization are inspected. The results
+show that the MFPA is the most stable algorithm, the proposed model represents the system
+satisfactorily, and optimizing the controller using a regularized cost function leads to better overall
+performance.
 
 ### Contributions
 **Contributions**. This work has 4 contributions, i.e.;
